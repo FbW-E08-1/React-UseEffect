@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 
 const FetchData = () => {
   const [data, setData] = useState(null);
-  const [search, setSearch] = useState(0);
+  const [search, setSearch] = useState(1);
 
   const url = `https://jsonplaceholder.typicode.com/posts/${search}`;
 

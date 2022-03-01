@@ -1,6 +1,7 @@
 import React from 'react';
 //import InfiniteLoop from './components/InfiniteLoop';
-import FetchData from './components/FetchData';
+//import FetchData from './components/FetchData';
+import Cleanup from './components/Cleanup';
 import './App.css';
 
 const App = () => {
@@ -8,7 +9,8 @@ const App = () => {
     <main>
       <h1>Welcome to React</h1>
       {/* <InfiniteLoop /> */}
-      <FetchData />
+      {/* <FetchData /> */}
+      <Cleanup />
     </main>
   );
 };
